@@ -56,3 +56,12 @@ header nav#navbar ul.nav-list li a:hover {
     color: #aaa;
     transition: color 0.2s;   
 }
+
+section#articles {
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
