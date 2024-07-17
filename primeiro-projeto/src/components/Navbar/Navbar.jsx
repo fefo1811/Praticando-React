@@ -2,8 +2,7 @@ import React from "react";
 import logoImg from './../../assets/images/logo.png'; // Para usar imagens, precisamos importar e declarar no código
 import './../../styles/App.css'
 
-class Navbar extends React.Component{
-  render() { // Método importante de toda classe React
+export function Navbar() {
     return (
       <div>
         <header>
@@ -24,7 +23,5 @@ class Navbar extends React.Component{
         </header>
       </div>
     );
-  }
 }
 
-export default Navbar;
